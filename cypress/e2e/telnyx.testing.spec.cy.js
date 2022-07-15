@@ -35,23 +35,23 @@ describe('Telnyx testing', () => {
     signupPage.checkMessageAfterSignup();
   })
 
-  it('2. Login with email', () => {
+  xit('2. Login with email', () => {
     mainPage.loginClick()
     loginPage.logInProcess()
     accountPage.checkWhoIsLoggedIn()
   })
 
-  it('3. Check warning messages on Sig-up page', () => {
+  xit('3. Check warning messages on Sig-up page', () => {
     mainPage.signUpClick()
     signupPage.checkWarningMessages()
   })
 
-  it('4. Verify Terms & Conditions page', () => {
+  xit('4. Verify Terms & Conditions page', () => {
     mainPage.signUpClick()
     signupPage.verifyTermsAndConditionsPage()
   })
 
-  it('5. Verify Privacy Policy page', () => {
+  xit('5. Verify Privacy Policy page', () => {
     mainPage.signUpClick()
     signupPage.verifyPrivacyPolicyPage()
   })
@@ -67,28 +67,28 @@ describe('Telnyx testing', () => {
     supportCenterPage.checkResultsOfSearch()
   })
 
-  it('8. Check LinkedIn share link', () => {
+  xit('8. Check LinkedIn share link', () => {
     mainPage.checkLinkedinShare()
   })
 
-  it('9. Check Twitter share link', () => {
+  xit('9. Check Twitter share link', () => {
     mainPage.checkTwitterShare()
   })
 
-  it('10. Check Facebook share link', () => {
+  xit('10. Check Facebook share link', () => {
     mainPage.checkFacebookShare()
   })
 
-  it('11. Verify “Switch+Save with Telnyx” form', () => {
+  xit('11. Verify “Switch+Save with Telnyx” form', () => {
     mainPage.checkSwitchSaveForm()
   })
 
-  it('12. Verify “Run API with Postman” function', () => {
+  xit('12. Verify “Run API with Postman” function', () => {
     mainPage.learnMoreClick()
     developersPage.checkRunInPostmanFunction()
   })
 
-  it('13. Check search work on Developer Community page', () => {
+  xit('13. Check search work on Developer Community page', () => {
     mainPage.learnMoreClick()
     developersPage.checkSearchWork()
   })
@@ -129,7 +129,7 @@ describe('Telnyx testing', () => {
     developersPage.checkBadgesFilter()
   })
 
-  it('21. Verify warning message in Login to Developer Community', () => {
+  xit('21. Verify warning message in Login to Developer Community', () => {
     mainPage.developersDocsClick()
     developersPage.verifyLoginWarnMessages()
   })
@@ -144,37 +144,37 @@ describe('Telnyx testing', () => {
     developersPage.verifyWarnMessageInForgotPass()
   })
 
-  it('24. Verify SIP Trunk Pricing for Ukraine', () => {
+  xit('24. Verify SIP Trunk Pricing for Ukraine', () => {
     mainPage.sipTrunkingClick()
     sipTrunkPage.chooseCountry()
     sipTrunkPage.chooseCurrency()
   })
 
-  it('25. Verify talk to sales in Download SIP Trunking pricing', () => {
+  xit('25. Verify talk to sales in Download SIP Trunking pricing', () => {
     mainPage.sipTrunkingClick()
     sipTrunkPage.verifyTalkToSales()
   })
 
-  it('26. Check search filters in Blog', () => {
+  xit('26. Check search filters in Blog', () => {
     mainPage.blogLinkClick()
     blogPage.checkFilters()
   })
 
-  it('27. Verify Release Notes for Video Rooms', () => {
+  xit('27. Verify Release Notes for Video Rooms', () => {
     mainPage.releaseNotesClick()
     releaseNotesPage.checkVideoRooms()
   })
 
-  it('28. Verify all pricing page', () => {
+  xit('28. Verify all pricing page', () => {
     mainPage.verifyAllPricingPage()
   })
 
-  it('29. Check work of Savings Calculator', () => {
+  xit('29. Check work of Savings Calculator', () => {
     mainPage.savingsCalculatorClick()
     calculatorPage.checkPrice()
   })
 
-  it('30. Verify Careers position Core Network Engineer', () => {
+  xit('30. Verify Careers position Core Network Engineer', () => {
     mainPage.checkCareers()
   })
 })
