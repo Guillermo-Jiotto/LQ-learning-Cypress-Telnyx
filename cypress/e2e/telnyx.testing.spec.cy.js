@@ -22,6 +22,11 @@ describe('Telnyx testing', () => {
   const releaseNotesPage = new ReleaseNotesPage()
   const calculatorPage = new CalculatorPage()
 
+  // before(() => {
+  //   cy.viewport(1680, 1050)
+  //   mainPage.goToTelnyx()
+  // })
+  
   beforeEach(() => {
     cy.viewport(1680, 1050)
     mainPage.goToTelnyx()
